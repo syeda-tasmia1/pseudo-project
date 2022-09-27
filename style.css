@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+}
+h1{
+    background-color: blue;
+    color: antiquewhite;
+    padding: 20px;
+}
+a{
+    background-color: burlywood;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+h2{
+    background-color: brown;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: white;
+    background: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: cornflowerblue;
+}
+.box1, .box2{
+    padding: 25px 10px;
+    border: 2px solid black;
+}
+div.container h3:first-child{
+    color: blue;
+}
+div.container p:last-child{
+    color: brown;
+}
+ 
